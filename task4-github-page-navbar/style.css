@@ -1,0 +1,127 @@
+*{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: #24292e;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #c8c9cb;
+  }
+  
+  .dropdown-content {
+    display: none;
+    padding-top: 20px;
+    position: absolute;
+    min-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(12, 11, 11);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown i{
+      color: #85888b;
+      font-size: small;
+  }
+  
+  .dropdown-content a:hover {
+    color: #1f7cda;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #nav-left{
+    padding-top: 10px;
+  }
+
+  #nav-left>a>img{
+    position: relative;
+    bottom: 10px;
+  }
+
+
+  #nav-right{
+      float: right;
+      margin-right: 40px;
+      position: relative;
+      top:10px;
+  }
+
+  #nav-right input{
+      background-color: #3f4448;
+      color:#86898c;
+      border-radius: 5px;
+      padding: 8px 10px;
+      border: none;
+      font-size: 15px;
+  }
+
+  #nav-right input:focus{
+    background-color: white;
+    color: black;
+  }
+
+  button{
+      background-color: #24292e;
+      border: none;
+      color: white;
+      font-size: 16px;
+  }
+
+  button:hover{
+    cursor: pointer;
+    color:hsla(0,0%,100%,.75);
+  }
+
+  #signup-btn{
+      border: 1px solid white;
+      border-radius: 3px;
+      padding: 5px 10px;
+  }
+
+  hr {
+    height: 1px;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 25px;
+}
+  
