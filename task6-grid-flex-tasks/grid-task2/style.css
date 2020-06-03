@@ -1,0 +1,80 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 20px;  
+}
+
+div{
+    background-image: linear-gradient(to right, #85c2e0, #d6ebf5 );
+    border: 1px solid #56d5d5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    grid-column: 1 / -1;
+}
+
+#two-first{
+    grid-column: 1 / 7;
+}
+
+#two-second{
+    grid-column: 7 / -1;
+}
+
+#three-first{
+    grid-column: 1 / span 4;
+}
+
+#three-second{
+    grid-column: 5 / span 4;
+}
+
+#three-third{
+    grid-column: 9 / span 4;
+}
+
+#four-first{
+    grid-column: 1 / span 3;
+}
+
+#four-second{
+    grid-column: 4 / span 3;
+}
+
+#four-third{
+    grid-column: 7 / span 3;
+    background-image: linear-gradient(to right, #238bbe, #142c38 );
+}
+
+#four-fourth{
+    grid-column: 10 / span 3;
+}
+
+#six-first{
+    grid-column: 1 / span 2;
+}
+
+#six-second{
+    grid-column: 3 / span 2;
+}
+
+#six-third{
+    grid-column: 5 / span 2;
+}
+
+#six-fourth{
+    grid-column: 7 / span 2;
+}
+
+#six-fifth{
+    grid-column: 9 / span 2;
+}
+
+#six-sixth{
+    grid-column: 11 / span 2;
+}
