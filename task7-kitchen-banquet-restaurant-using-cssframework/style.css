@@ -1,0 +1,64 @@
+table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+  }
+  
+  td {
+    padding: 2px 10px;
+  }
+
+@media only screen and (max-width : 768px){
+    .eimage, .ecard{
+        width: 50% !important;
+    }
+    #dollar-section, #event-section, #event-details{
+        flex-wrap: wrap;
+    }
+    #event-cards{
+        justify-content: start !important;
+    }
+    .hotel-details-head, .hotel-details{
+        margin-left: 0% !important;
+        width: 50% !important;
+    }
+    #coursel-card{
+        width: 60% !important;
+        position: relative !important;
+        margin-top: -20% !important;
+        left: unset !important;
+        margin-left: 20% !important;
+    }
+    #coursel-card-para{
+        display: none !important;
+    }
+}
+
+@media (max-width: 550px){
+    #dollar-section, #event-section, #event-cards, #event-details{
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .hotel-details, .ecard, .eimage{
+        width: 100% !important;
+    }
+    .hotel-details-head, #event-details{
+        width: 100% !important;
+        margin-top: unset !important;
+        margin-left: unset !important;
+    }
+    #coursel-card{
+        width: 70% !important;
+        margin-top: -50% !important;
+        margin-left: 15% !important;
+    }
+    #coursel-div{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    #coursel-div h4{
+        text-align: center !important;
+    }
+}
+
+

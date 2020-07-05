@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Place your fontawesome kit's code here -->
+    <script src="https://kit.fontawesome.com/9e2173a16a.js" crossorigin="anonymous"></script>
+
+    <title>Kitchen Banquet & Restaurant</title>
+</head>
+
+<body>
+
+    <!-- navbar section-->
+    <header>
+        <nav class="navbar navbar-light mx-4 my-2">
+            <img src="images/logo.png" alt="kitchen retaurant logo">
+            <button class="navbar-toggler border-dark">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- carousel section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/carousel1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/carousel3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- carousel card section -->
+    <div class="card" style="width: 25rem; position: absolute; margin-top: -35%; margin-left: 15%;" id="coursel-card">
+        <div class="card-body" id="coursel-div">
+            <h4 class="card-title font-weight-bold">RESTAURANT WEBSITE TEMPLATE</h4>
+            <p class="card-text font-weight-light font-italic" id="coursel-card-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus iste, maiores, impedit soluta sed
+                quod, inventore laborum tempore facere doloremque est mollitia autem accusantium. Quae repellendus
+                voluptates corporis a.
+            </p>
+            <button type="button" class="btn btn-outline-dark">Kitchen Template</button>
+        </div>
+    </div>
+
+    <!-- Bunch of cards Section -->
+    <div class="d-flex justify-content-around m-5 row flex-wrap row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+
+        <section class="col">
+            <div class="card">
+                <div class="card-body d-flex flex-column align-items-center p-4">
+                    <h5 class="card-title m-4 pt-4 font-weight-bold">BANQUET</h5>
+                    <div class="col-8">
+                        <img src="images/service-img1.jpg" class="card-img-top rounded-circle" alt="Banquet">
+                    </div>
+                    <p class="card-text font-italic text-center m-4">
+                        Banquet Lorem ipsum dolor sit amet elit, adipisicing.
+                    </p>
+                    <p class="card-text pb-5"><small class="font-weight-bold">VIEW OUR BANQUETS</small></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="col">
+            <div class="card">
+                <div class="card-body d-flex flex-column align-items-center p-4">
+                    <h5 class="card-title m-4 pt-4 font-weight-bold">KITCHEN MENU</h5>
+                    <div class="col-8">
+                        <img src="images/service-img2.jpg" class="card-img-top rounded-circle" alt="kitchen menu">
+                    </div>
+                    <p class="card-text font-italic text-center m-4">
+                        Kitchen, Lorem ipsum dolor sit amet elit, similique.
+                    </p>
+                    <p class="card-text pb-5"><small class="font-weight-bold">VIEW MENU LIST</small></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="col">
+            <div class="card">
+                <div class="card-body d-flex flex-column align-items-center p-4">
+                    <h5 class="card-title m-4 pt-4 font-weight-bold">HOTEL ROOMS</h5>
+                    <div class="col-8">
+                        <img src="images/service-img3.jpg" class="card-img-top rounded-circle" alt="hotel rooms">
+                    </div>
+
+                    <p class="card-text font-italic text-center m-4">
+                        Hotel Rooms, ipsum dolor sit amet adipisicing, similique!
+                    </p>
+                    <p class="card-text pb-5"><small class="font-weight-bold">VIEW OUR ROOMS</small></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- amenities section -->
+    <section class="bg-light mb-4">
+        <h4 class="ml-5 mt-5 pl-4 pt-5">OUR AMENITIES</h4>
+        <section class="d-flex justify-content-center p-5 flex-wrap row-cols-sm-2 row-cols-md-3 row-cols-lg-6">
+            <div class="col ml-3">
+                <img src="icons/security.png" alt="Security" class="width-4">
+                <p class="font-italic">Security servilliance (24 Hours)</p>
+            </div>
+            <div class="col ml-3">
+                <img src="icons/interior.png" alt="interiors">
+                <p class="font-italic">Elegant & Luxurious Interiors</p>
+            </div>
+            <div class="col ml-3">
+                <img src="icons/banquet.png" alt="banquet">
+                <p class="font-italic">Newly well designed 4 banquet</p>
+            </div>
+            <div class="col ml-3">
+                <img src="icons/decorators.png" alt="decorators">
+                <p class="font-italic">Professional floral & decorators</p>
+            </div>
+            <div class="col ml-3">
+                <img src="icons/parking.png" alt="parking">
+                <p class="font-italic">Spacious Parking</p>
+            </div>
+            <div class="col ml-3">
+                <img src="icons/room.png" alt="Room">
+                <p class="font-italic">22 modern & luxurious Rooms</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Customers Reviews Section -->
+    <section class="d-flex flex-column align-items-center text-center m-5">
+        <h3>WHAT OUR CUSTOMERS SAYS</h3>
+        <p class="font-italic mt-2 mb-5 w-50">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae culpa velit ducimus, laboriosam eius
+            porro amet temporibus.
+            <strong>READ ALL REVIEWS</strong>
+        </p>
+
+        <!-- reviews -->
+        <div class="d-flex justify-content-around flex-wrap">
+
+            <div class="col">
+
+                <div class="card p-4">
+                    <div class="col-2 pt-3">
+                        <img src="icons/quote.png" alt="quote">
+                    </div>
+                    <q class="m-5">
+                        The delicious main course, caring staff, but pity about the French fries. Visited the place for
+                        lunch with my friend. We were delighted by South-Indian style main course with species.
+                    </q>
+                    <strong class="mb-4">- ANNA LARSEN</strong>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <div class="card p-4">
+                    <div class="col-2 pt-3">
+                        <img src="icons/quote.png" alt="quote">
+                    </div>
+                    <q class="m-5">
+                        The delicious main course, caring staff, but pity about the French fries. Visited the place for
+                        lunch with my friend. We were delighted by South-Indian style main course with species.
+                    </q>
+                    <strong class="mb-4">- JOHN WATSAN</strong>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card p-4">
+                    <div class="col-2 pt-3">
+                        <img src="icons/quote.png" alt="quote">
+                    </div>
+                    <q class="m-5">
+                        The delicious main course, caring staff, but pity about the French fries. Visited the place for
+                        lunch with my friend. We were delighted by South-Indian style main course with species.
+                    </q>
+                    <strong class="mb-4">- JAMES FAMILY</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- events section -->
+    <section id="event-section" class="d-flex">
+        <div class="card eimage">
+            <img src="images/card1.jpg" alt="party">
+        </div>
+        <div class="card eimage">
+            <img src="images/card2.jpg" alt="wedding">
+        </div>
+        <div class="card eimage">
+            <img src="images/card3.jpg" alt="event">
+        </div>
+        <div class="card eimage">
+            <img src="images/card4.jpg" alt="birthday">
+        </div>
+    </section>
+
+    <!-- Event Cards Section -->
+    <section class="d-flex justify-content-around" id="event-details" style="position: relative; margin-top: -15%;">
+        <div class="card ecard" style="width: 20rem;" id="party-card">
+            <div class="card-body">
+                <h4 class="card-title font-weight-bold">PARTY</h4>
+                <p class="card-text font-weight-light font-italic">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus iste, maiores, impedit soluta
+                    see quod.
+                </p>
+            </div>
+        </div>
+
+        <div class="card ecard" style="width: 20rem;" id="wedding-card">
+            <div class="card-body">
+                <h4 class="card-title font-weight-bold">WEDDING</h4>
+                <p class="card-text font-weight-light font-italic">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus iste, maiores, impedit soluta
+                    see quod.
+                </p>
+            </div>
+        </div>
+
+        <div class="card ecard" style="width: 20rem;" id="corporate-card">
+            <div class="card-body">
+                <h4 class="card-title font-weight-bold">CORPORATE EVENTS</h4>
+                <p class="card-text font-weight-light font-italic">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus iste, maiores, impedit soluta
+                    see quod, dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
+        </div>
+
+        <div class="card ecard" style="width: 20rem;" id="bday-card">
+            <div class="card-body">
+                <h4 class="card-title font-weight-bold">BIRTHDAY PARTIES</h4>
+                <p class="card-text font-weight-light font-italic">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus iste, maiores, impedit soluta
+                    see quod.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- unlimited offer section -->
+    <section id="dollar-section" class="d-flex align-items-center m-5">
+        <div class="p-4">
+            <img src="images/dollar-image.jpg" alt="dollor image" class="rounded-circle">
+        </div>
+
+        <div class="p-4 mx-5">
+            <h1 style="color: #6f9496; font-weight: bolder;">$15.99</h1>
+            <h2>UNLIMITED LUNCH OFFER</h2>
+            <p class="font-italic">Special Savings Lorem ipsum dolor sit amet consectetur. Dolore non voluptatem harum
+                voluptate,
+                culpa dicta, cum ea dignissimos.</p>
+        </div>
+
+        <div class="p-4">
+            <button type="button" class="btn btn-lg p-4"
+                style="border: 2px solid #38666a; color: #38666a; background-color: white;">Call To Action
+                Button</button>
+        </div>
+    </section>
+
+    <!-- Google Map Location Section  -->
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57669.88190233149!2d68.34305769791652!3d25.392502322076037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0f1a62a291db26e!2sThe%20Kitchen!5e0!3m2!1sen!2s!4v1593165605293!5m2!1sen!2s"
+            width="100%" height="450" frameborder="0" style="border:1; border-radius: 2%;" allowfullscreen="true"
+            aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+    <!-- Reservation Section -->
+    <section style="position: relative;">
+
+        <div class="p-4 hotel-details-head" style="background-color: white; margin-top: -17%; margin-left: 35%; width: 25%;">
+            <h4>MAKE A RESERVATION</h4>
+        </div>
+        <div class="d-flex justify-content-end" id="event-cards">
+            <div class="p-4 hotel-details" style="border-top: 1px solid #f1ece1; border-right: 1px solid #f1ece1;  background-color: white !important;  width: 25%;">
+                <i class="fas fa-clock"></i>
+                <b>Opening hours</b> <br> <br>
+                <table class="font-italic">
+                    <tr>
+                        <td>Mon-Tue</td>
+                        <td>closed</td>
+                    </tr>
+                    <tr>
+                        <td> Wed-Thu</td>
+                        <td>6:00 - 10: 00 Pm</td>
+                    </tr>
+                    <tr>
+                        <td>Fri-Sun</td>
+                        <td>5:30-10:00 Pm</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="p-4 hotel-details" style="width: 20%; border-right: 1px solid #f1ece1;  background-color: white !important;">
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <b>CONTACT INFO</b>
+                </div>
+
+                <div class="font-italic">
+                    <br>Hop nop location for y'all, NY. <br>
+                    info@kitchen.com <br>
+                    + 180 - 123 -4567
+                </div>
+            </div>
+
+            <div class="p-4 d-flex align-items-center hotel-details" style=" background-color: white !important; width: 20%;">
+                <button type="button" class="btn btn-lg p-4"  style="border: 2px solid #38666a; color: #38666a; background-color: white;">Make
+                    a reservation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section-->
+    <footer class="page-footer font-small" style="background-color: #1f1707;">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Quick links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Home</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> About us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Customer
+                                Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> FAQ's</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Services</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Banquet Hall</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Hotel Rooms</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">> Kitchen Menu</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Social media</h5>
+
+                    <ul class="list-unstyled" style="line-height-step: 1.1;">
+                        <li>
+                            <i class="fab fa-facebook p-1 rounded-circle"
+                                style="background-color: #3b5997; color: white;"></i>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">Facebook</a>
+                        </li>
+                        <li>
+                        <li><i class="fab fa-twitter p-1 rounded-circle"
+                                style="background-color: #00aced; color: white;"></i>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">Twitter</a>
+                        </li>
+                        <li>
+                        <li><i class="fab fa-linkedin-in p-1 rounded-circle"
+                                style="color: white; background-color: #0074a1;"></i>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">LinkedIn</a>
+                        </li>
+                        <li>
+                        <li><i class="fab fa-instagram p-1 rounded-circle"
+                                style="background-color: #e94559; color: white;"></i>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">Instagram</a>
+                        </li>
+                        <li>
+                        <li><i class="fab fa-google-plus-g p-1 rounded-circle"
+                                style="background-color: #d64937; color: white;"></i>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">Google Plus</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">news letter</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="font-italic font-weight-bold" style="color: #6b6547">Join Us For Getting
+                                Speciall Offers and Event accnouncements.</a>
+                        </li>
+                        <li>
+                            <input class="font-italic font-weight-bold my-4 px-4 py-3"
+                                style="background-color: #262013; color: gainsboro; border: none;" type="email"
+                                placeholder="Enter Your Email Address">
+                        </li>
+                        <li>
+                            <button class="py-3 px-5"
+                                style="color: #8a6c2c; border: 2px solid #8a6c2c; background-color: #1f1707;">Subscribe</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <hr style="background-color: #6b6547">
+        <div class="footer-copyright text-center py-3 font-italic font-weight-bold" style="color: #6b6547">© 2020
+            Copyright:
+            <a href="https://mdbootstrap.com/" class="font-italic font-weight-bold" style="color: #6b6547"> Bhagia
+                Sheri's Assignment For Tech Karo</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
