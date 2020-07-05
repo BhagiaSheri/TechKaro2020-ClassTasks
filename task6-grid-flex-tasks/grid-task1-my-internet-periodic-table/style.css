@@ -1,0 +1,34 @@
+*{
+    background-color: #202e38;
+    color: wheat;
+}
+
+#main{
+    padding-top: 3%;
+}
+
+#main h1,p{
+    text-align: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(10, 100px);
+    grid-gap: 10px;
+    margin: 2% 15% auto;
+    
+}
+
+div{
+    border: 4px solid #e7e983;
+    padding-left: 20px;
+}
+
+#db{
+    grid-column: 7 / span 1;
+}
+
+div h2{
+    margin-bottom: auto;
+}
