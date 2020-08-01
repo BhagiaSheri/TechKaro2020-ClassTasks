@@ -1,0 +1,150 @@
+/********************* Mobile First Approch *****************/
+
+/************** variables *****************/
+:root{
+    --light-blue-color: #0493d3;
+    --light-gray-color: #dedede;
+    --black-color: #222222;
+    --accent-color: #ffe77a;
+    --main-heading-color: #fafbfc;
+    --article-color: #eaeaea;
+    --white-color: white;
+    --body-color: #131415;
+    --selection-bg: #030303;
+    --selection-color: #fcfcfc;
+}
+/******************************************/
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+::selection {
+    color: var(--selection-color);
+    background: var(--selection-bg);
+  }
+  
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    margin: 3% 0;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+}
+
+nav, article{
+    padding: 0 2%;
+}
+
+#toggle-btn{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: x-large;
+    background: var(--white-color);
+    border: none;
+}
+
+#toggle-btn:focus{
+    outline: none;
+}
+
+#nav-left-items span{
+    color: var(--light-blue-color);
+    font-family: 'Oleo Script', cursive;
+    font-size: xx-large;
+    letter-spacing: 0.09em;
+}
+
+.article-main-heading a{
+    color: var(--black-color);
+}
+
+.article-heading a, .article-main-heading a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.article-heading a{
+    color: var(--light-blue-color); 
+}
+
+.article-text{
+    letter-spacing: -.33px;
+    font-size: 1.125rem;
+    text-align: justify;
+}
+
+article>*+* {
+    margin-top: 2em;
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid var(--light-gray-color);
+    box-shadow: 2px var(--light-gray-color);
+}
+
+blockquote{
+    border-left: 5px solid var(--light-gray-color);
+    padding: 1em;
+}
+
+/*********** classes for dark mode - called in js file ************/
+
+.dark-mode-body, .dark-mode-navbar, .dark-mode-toggle-btn{
+    background-color: var(--body-color) !important;
+    color: var(--article-color) !important;
+}
+
+.dark-mode-nav-heading{
+    color: var(--main-heading-color) !important;
+}
+
+.dark-mode-article-heading, .dark-mode-nav-span{
+    color: var(--accent-color) !important;
+}
+
+.dark-mode-selection{
+    color: var(--selection-bg);
+    background: var(--selection-color);
+}
+
+/**************** media queries for larger screens ****************/
+
+/* for tablet size screen */
+@media (min-width: 768px){
+
+    #navbar{
+        margin: 5% 10%;
+    } 
+
+    #nav-left-items h3{
+        display: inline;
+    }
+
+    article{
+        margin: 0 10%;
+    }
+}
+
+/* for laptop size screen */
+@media (min-width: 1024px){
+
+    #navbar{
+        margin: 5% 20%;
+    }
+
+    article{
+        margin: 0 20%;
+    }
+}
+
+
+
+
