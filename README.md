@@ -6,4 +6,4 @@ For testing Task#9 - Google Login Form, credentials are required which are given
 
 Email: bhagiasheri@gmail.com
 
-Passward: TechKaro20 
+Password: TechKaro20 
